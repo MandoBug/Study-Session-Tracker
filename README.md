@@ -12,6 +12,7 @@ I built this tool while grinding data structures and algorithms to prepare for c
 - View a list of all past sessions
 - See a summary of total study time in the last 7 days
 - Saves data to a local `study_log.json` file
+- Add Leetcode problem (date, time taken to solve, difficulty, topics used to solve, and reflection of problem itself)
 
 ## Usage
 
