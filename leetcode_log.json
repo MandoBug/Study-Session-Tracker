@@ -1,0 +1,70 @@
+[
+  {
+    "date": "2025-08-18",
+    "title": "Backspace String Compare",
+    "difficulty": "Easy",
+    "topics": [
+      "stack",
+      "string"
+    ],
+    "minutes": 15,
+    "notes": "Learned how to use stacks to simulate typing behavior. Initial version didn\u2019t account for popping from empty list. Final version used char != \"#\" and stack check. Good edge case practice."
+  },
+  {
+    "date": "2025-08-18",
+    "title": "Remove All Adjacent Duplicates in String",
+    "difficulty": "Easy",
+    "topics": [
+      "stack",
+      "string",
+      "two-pointer"
+    ],
+    "minutes": 20,
+    "notes": "Solved using a stack to track adjacent characters. If top of stack equals current char, pop; else append. Simple O(n) solution, very clean stack application."
+  },
+  {
+    "date": "2025-08-18",
+    "title": "Min Remove to Make Valid Parentheses",
+    "difficulty": "Medium",
+    "topics": [
+      "stack",
+      "string",
+      "list"
+    ],
+    "minutes": 30,
+    "notes": "Solved using stack to track indices of open parentheses. When encountering unmatched ')', mark it for removal. Also remove unmatched '(' remaining in the stack. Learned importance of converting string to list to allow mutation."
+  },
+  {
+    "date": "2025-08-18",
+    "title": "Number of Recent Calls",
+    "difficulty": "Easy",
+    "topics": [
+      "Queue"
+    ],
+    "minutes": 30,
+    "notes": "Solved using a queue (deque) to simulate a sliding window. Appended the current timestamp t and removed any timestamps older than t - 3000. Learned how deque.popleft() is more efficient than list.pop(0) and saw how to model real-time data streams using a queue. Solidified understanding of time-based window filtering using FIFO logic."
+  },
+  {
+    "date": "2025-08-18",
+    "title": "Baseball Game",
+    "difficulty": "Easy",
+    "topics": [
+      "stack",
+      "simulation"
+    ],
+    "minutes": 20,
+    "notes": "Used a stack to simulate scoring logic. For D, pushed double of last valid score. For +, pushed sum of last two scores. For C, removed last score. Learned how to carefully manage string vs int conversion and how to use negative indexing (stack[-1], stack[-2]) for recent elements in the stack."
+  },
+  {
+    "date": "2025-08-18",
+    "title": "Dota2 Senate",
+    "difficulty": "Medium",
+    "topics": [
+      "queue",
+      "simulation",
+      "greedy"
+    ],
+    "minutes": 45,
+    "notes": "Solved using two queues to track indices of Radiant and Dire senators. In each round, compare the front indices \u2014 the smaller index bans the other and gets re-added to the queue with +n to simulate circular behavior. Learned how to simulate round-based logic with queues and index math"
+  }
+]
