@@ -4,5 +4,11 @@
     "subject": "Weekly Reflection",
     "minutes": 1800,
     "notes": "Solved 10 Leetcode problems including 2 medium (Group Anagrams, Top K Frequent). Focused heavily on mastering hashmaps/sets. Learned defaultdict, key immutability, time/space complexity estimation, and problem-solving patterns like bucket sort and key tuple tricks. Started learning stack and queue logic and applying them to problems. Gained strong intuition for hashmap coding."
+  },
+  {
+    "date": "2025-08-18",
+    "subject": "Leetcode",
+    "minutes": 640,
+    "notes": "Just grinded leetcode, I focused mainly on Queues and stacks. Learned a bit of linked lists as well!"
   }
 ]
