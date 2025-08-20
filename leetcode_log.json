@@ -76,5 +76,17 @@
     ],
     "minutes": 20,
     "notes": "Solved by converting the number to a string and reversing it with slicing (`[::-1]`).  Edge cases like negatives are already handled because a negative number reversed has a trailing `-`, which will never equal the original.  No need for an explicit `if x < 0` check."
+  },
+  {
+    "date": "2025-08-20",
+    "title": "Remove Duplicates From Sorted Array",
+    "difficulty": "Easy",
+    "topics": [
+      "strings",
+      "arrays",
+      "two pointers"
+    ],
+    "minutes": 25,
+    "notes": "found a cool trick using nums[:] and also solved using two pointers"
   }
 ]
