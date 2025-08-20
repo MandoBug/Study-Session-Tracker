@@ -66,5 +66,15 @@
     ],
     "minutes": 45,
     "notes": "Solved using two queues to track indices of Radiant and Dire senators. In each round, compare the front indices \u2014 the smaller index bans the other and gets re-added to the queue with +n to simulate circular behavior. Learned how to simulate round-based logic with queues and index math"
+  },
+  {
+    "date": "2025-08-19",
+    "title": "Palindrome Number",
+    "difficulty": "Easy",
+    "topics": [
+      "strings"
+    ],
+    "minutes": 20,
+    "notes": "Solved by converting the number to a string and reversing it with slicing (`[::-1]`).  Edge cases like negatives are already handled because a negative number reversed has a trailing `-`, which will never equal the original.  No need for an explicit `if x < 0` check."
   }
 ]
