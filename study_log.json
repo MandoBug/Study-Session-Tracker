@@ -10,5 +10,11 @@
     "subject": "Leetcode",
     "minutes": 640,
     "notes": "Just grinded leetcode, I focused mainly on Queues and stacks. Learned a bit of linked lists as well!"
+  },
+  {
+    "date": "2025-08-20",
+    "subject": "Linked Lists, Sliding Window, Problem Review",
+    "minutes": 280,
+    "notes": "Focused on deepening understanding of singly-linked list manipulation. Learned about dummy nodes for edge case handling, fast and slow pointer technique to detect cycles, and removal of nth node from end. Struggled with syntax and mental model but improved with hands-on LeetCode problems. Briefly touched on sliding window logic (without solving a full problem). Wrapped up with review plan and organizing solved problems."
   }
 ]

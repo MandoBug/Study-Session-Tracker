@@ -88,5 +88,60 @@
     ],
     "minutes": 25,
     "notes": "found a cool trick using nums[:] and also solved using two pointers"
+  },
+  {
+    "date": "2025-08-20",
+    "title": "Valid Anagram",
+    "difficulty": "Easy",
+    "topics": [
+      "hashmaps",
+      "strings"
+    ],
+    "minutes": 20,
+    "notes": "This one taught me how to keep track of strings that are equal in terms of letters"
+  },
+  {
+    "date": "2025-08-20",
+    "title": "Remove Duplicates from Sorted List",
+    "difficulty": "Easy",
+    "topics": [
+      "linked list",
+      "pointer"
+    ],
+    "minutes": 30,
+    "notes": "Used a pointer (current) to traverse the linked list and skip over duplicate values. If current.val == current.next.val, we link current.next to current.next.next. Otherwise, move current forward. Learned how to traverse and manipulate node links directly. Repeated values are collapsed in-place without extra space."
+  },
+  {
+    "date": "2025-08-20",
+    "title": "Reverse Linked List",
+    "difficulty": "Easy",
+    "topics": [
+      "linked list",
+      "pointer"
+    ],
+    "minutes": 30,
+    "notes": "Reversed a singly linked list using iteration. Used a prev pointer to keep track of the reversed portion and a current pointer to traverse the list. At each step, reversed the next pointer and moved forward. Learned how to rewire nodes and the importance of returning prev (the new head)."
+  },
+  {
+    "date": "2025-08-20",
+    "title": "Remove Nth Node From End of List",
+    "difficulty": "Medium",
+    "topics": [
+      "linked list",
+      "two pointers"
+    ],
+    "minutes": 30,
+    "notes": "Solved using the two-pointer method. Used a dummy node to handle edge cases like deleting the head. Moved one pointer n steps ahead, then moved both until the first hit the end. The second pointer lands just before the target node, which is then removed. Learned how dummy nodes and spacing between pointers help with deletion logic."
+  },
+  {
+    "date": "2025-08-20",
+    "title": "Linked List Cycle",
+    "difficulty": "Easy",
+    "topics": [
+      "linked list",
+      "two pointers"
+    ],
+    "minutes": 20,
+    "notes": "Solved using Floyd\u2019s Tortoise and Hare algorithm. Used two pointers (slow and fast) to detect cycles. If they ever meet, there is a cycle. Otherwise, the list ends.  "
   }
 ]
