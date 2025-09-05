@@ -1,0 +1,36 @@
+[
+  {
+    "date": "2025-09-04",
+    "title": " Find Closest Person",
+    "difficulty": "Easy",
+    "topics": [
+      "math",
+      "comparison"
+    ],
+    "minutes": 10,
+    "notes": "Simple comparison problem using absolute difference. Compared distances between z and x (P1), and z and y (P2). Returned 1 if person at y is closer, 2 if x is closer, and 0 if tied. Clean implementation practice."
+  },
+  {
+    "date": "2025-09-05",
+    "title": "Roman to Integer",
+    "difficulty": "Easy",
+    "topics": [
+      "Hash Map",
+      "String Parsing"
+    ],
+    "minutes": 15,
+    "notes": "Refreshed string-to-integer conversions using hash maps.Learned to look ahead in the string (e.g., \"IV\" = 4).Compared current and next Roman symbols to determine whether to add or subtract.Got more comfortable with character-by-character parsing."
+  },
+  {
+    "date": "2025-09-05",
+    "title": "Minimum Operations to Make the Integer Zero",
+    "difficulty": "Medium",
+    "topics": [
+      "Bit Manipulation",
+      "Math",
+      "Greedy"
+    ],
+    "minutes": 30,
+    "notes": "Learned how binary representations and bit_count() can be used to track number of 1's.Practiced range loops and conditions to simulate valid operations."
+  }
+]
